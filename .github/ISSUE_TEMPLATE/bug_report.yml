@@ -1,0 +1,75 @@
+name: Bug Report
+description: File a bug report to help improve our software
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a bug! Please fill out the sections below to help us reproduce and resolve the problem.
+        *If you have found a security vulnerability, please do NOT file a public issue. Follow our [Security Policy](https://github.com/HumanoidAppLab/.github/blob/main/SECURITY.md) instead.*
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe the problem encountered...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the behavior.
+      placeholder: |
+        1. Set up '...'
+        2. Execute '...'
+        3. See error '...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior & Error Logs
+      description: What actually happened, including relevant logs, error traces, or console output.
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment Information
+      description: OS version, runtime/framework versions, robot platform or simulator details.
+      placeholder: "e.g., Ubuntu 22.04, Python 3.11, ROS 2 Iron, Isaac Sim / Gazebo"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context, hardware configuration, or screenshots about the problem here.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have searched open and closed issues to ensure this is not a duplicate.
+          required: true
+        - label: I have verified that this issue does not contain confidential data, passwords, or security vulnerabilities.
+          required: true

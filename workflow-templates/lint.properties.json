@@ -1,0 +1,8 @@
+{
+  "name": "HumanoidAppLab Lint & Style",
+  "description": "Standard code formatting and lint verification workflow template.",
+  "iconName": "terminal",
+  "categories": [
+    "Quality"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "HumanoidAppLab Starter CI",
+  "description": "Standard Continuous Integration workflow template for testing and building repositories.",
+  "iconName": "check-circle",
+  "categories": [
+    "Continuous Integration"
+  ]
+}

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: DataRealm Humanoid Application Lab Website
+    url: https://HumanoidAppLab.com
+    about: Learn more about our mission, humanoid robotics solutions, and news.
+  - name: Security Vulnerability Reporting
+    url: https://github.com/HumanoidAppLab/.github/blob/main/SECURITY.md
+    about: Responsibly report security vulnerabilities and sensitive issues.

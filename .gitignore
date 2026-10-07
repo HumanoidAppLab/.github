@@ -1,0 +1,17 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary & Cache Files
+*.log
+*.tmp
+__pycache__/
+.pytest_cache/
