@@ -6,7 +6,7 @@ New robots. Real-world work. We’re building the software that connects humanoi
 
 ### :robot: About Us
 
-At **DataRealm Humanoid Application Lab** (`HumanoidAppLab`), we bridge the gap between advanced humanoid robotics and real-world industrial environments. Our software systems enable robust perception, dexterous manipulation, fleet orchestration, and mission-critical autonomy on factory floors, logistics centers, and complex operating environments.
+We bridge the gap between advanced humanoid robotics and real-world industrial environments. Our software systems enable robust perception, dexterous manipulation, fleet orchestration, and mission-critical autonomy on factory floors, logistics centers, and complex operating environments.
 
 ---
 
